@@ -5,6 +5,6 @@
     <Target Name="PrintMe1">
         <Message Text="Project 1" />
         <MSBuild Projects=".\Proj2.proj" Targets="PrintMe2" />
-        <MSBuild Projects=".\Proj3.proj" Targets="PrintMe3" />
+        <MSBuild Projects=".\Proj3.proj" Targets="PrintMe3;PrintMe3Again" />
     </Target>
 </Project>
