@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    <ItemGroup>
+        <ProjectReference Include=".\Proj3.proj" />
+    </ItemGroup>
+    <Target Name="PrintMe2">
+        <Message Text="Project 2" />
+        <MSBuild Projects=".\Proj3.proj" Targets="PrintMe3" />
+    </Target>
+</Project>

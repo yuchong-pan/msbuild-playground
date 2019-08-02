@@ -1,0 +1,5 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    <Target Name="PrintMe3">
+        <Message Text="Project 3" />
+    </Target>
+</Project>
