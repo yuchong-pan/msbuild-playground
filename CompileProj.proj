@@ -1,0 +1,12 @@
+<Project DefaultTargets="Compile;Link" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Target Name="Compile">
+        <Message Text="Compiling" />
+    </Target>
+    <Target Name="Link">
+        <Message Text="Linking" />
+    </Target>
+    <Target Name="Optimize"
+        AfterTargets="Compile" BeforeTargets="Link">
+        <Message Text="Optimizing" />
+    </Target>
+</Project>
