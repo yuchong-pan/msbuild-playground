@@ -4,6 +4,6 @@
     </ItemGroup>
     <Target Name="PrintMe2">
         <Message Text="Project 2" />
-        <MSBuild Projects=".\Proj3.proj" Targets="PrintMe3" />
+        <MSBuild Projects=".\Proj3.proj" Targets="PrintMe3" Properties="A=prop2" />
     </Target>
 </Project>
